@@ -216,6 +216,11 @@ a:hover{
 .pro-about h2{
     margin-bottom: 7px;
 }
+.pro-about img:hover{
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
 .pro-about button{
     background-color: lightcyan;
     padding: 8px;
