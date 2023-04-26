@@ -216,6 +216,11 @@ a:hover{
 .pro-about h2{
     margin-bottom: 7px;
 }
+.pro-about img{
+     border: 2px solid black;
+     border-radius: 7px;
+     box-shadow: -2px -2px 5px dimgray;
+}
 .pro-about img:hover{
     -ms-transform: scale(2);
     -webkit-transform: scale(2);
