@@ -452,4 +452,60 @@ body{
     .lan-about:hover{
         background-color: rgb(252, 127, 82);
     }
+    #project{
+        box-shadow: 0px -3px 10px black;
+        padding-top: 1pc;
+    }
+    #project h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+        padding: 2pc;
+    }
+    #pro-contain{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 0pc;
+    }
+    .pro-about{
+        border: 2px solid black;
+        width: 70%;
+        text-align: center;
+        padding: 1pc;
+        margin: 1pc;
+        border-radius: 5px;
+        background-color: orange;
+        box-shadow: -2px -2px 5px black;
+    
+    }
+    .pro-about:hover{
+        background-color: rgb(252, 127, 82);
+    }
+    .pro-about h2{
+        margin-bottom: 7px;
+    }
+    .pro-about img{
+         border: 1px solid black;
+         border-radius: 7px;
+         box-shadow: -2px -2px 5px dimgray;
+    }
+    .pro-about img:hover{
+        -ms-transform: scale(2);
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+    .pro-about button{
+        background-color: lightcyan;
+        padding: 8px;
+        margin: 0pc 1pc;
+        border-radius: 8px;
+        margin-top: 10px;
+        box-shadow: -2px -2px 5px black;
+    }
+    .pro-about button:hover{
+        background-color: darkcyan;
+    }
 }
