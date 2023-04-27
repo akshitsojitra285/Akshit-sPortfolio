@@ -12,13 +12,13 @@ body{
     top: 0px;
     position: sticky;
 }
-a{
+#bar a{
     padding: 20px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;   
 }
-a:hover{
+#bar a:hover{
     color: darkorange;
 }
 #home{
@@ -262,8 +262,119 @@ a:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightgray;
+@media only screen and (max-width: 500px) {
+    *{
+        margin: 0px;
+        padding: 0px;
     }
-  }
+    body {
+        width: 500px;
+        background-color: lightgray;
+    }
+    #bar{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        height: 40px;
+        padding: 0px;
+        background-color: black;
+        top: 0px;
+        position: sticky;
+    }
+    #bar a{
+        padding: 0px;
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;   
+    }
+    #home{
+        margin-bottom: 0pc;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #home img{
+        margin-top: 4pc;
+    }
+    #me{
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 1pc;
+        /* margin: 0pc; */
+        box-shadow: -4px -4px 10px black;
+    }
+    #contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid black; */
+        padding: 0px;    
+    }
+    #name{
+        margin-bottom: 1pc;
+        margin-top: 0pc;
+        font-size: 2pc;
+    }
+    #desc{
+        font-size: 2pc;
+    }
+    #resume{
+        padding: 10px;
+        background-color: dimgray;
+        margin-top: 2pc;
+        margin-left: 0pc;
+        margin-bottom: 2pc;
+        border-radius: 2pc;
+        box-shadow: 2px 2px 5px black;
+        font-size: medium;
+    }
+    #social{
+        margin: 2pc 0pc;
+        padding-bottom: 2pc;
+    }
+    #social a{
+        margin: 2pc;
+    }
+    #skill{
+        /* border: 2px solid black; */
+        /* margin-top: 3pc; */
+        box-shadow: 0px -3px 10px black;
+        padding: 0pc;
+    }
+    #skill h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+        padding: 2pc;
+    }
+    #skill-contain{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skill-about{
+        border: 2px solid black;
+        padding: 2pc;
+        margin: 3pc;
+        text-align: center;
+        background-color: orange;
+        box-shadow: 2px 2px 10px black;
+        border-radius: 10px;
+    }
+    .skill-about:hover{
+        background-color: rgb(252, 127, 82);
+    }
+    .skill-logo{
+        margin-bottom: 1pc;
+    }
+    .skill-name{
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
