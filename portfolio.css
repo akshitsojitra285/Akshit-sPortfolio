@@ -455,6 +455,7 @@ body{
     #project{
         box-shadow: 0px -3px 10px black;
         padding-top: 1pc;
+        padding-bottom: 2pc;
     }
     #project h1{
         text-transform: uppercase;
@@ -507,5 +508,31 @@ body{
     }
     .pro-about button:hover{
         background-color: darkcyan;
+    }
+    #contact{
+        box-shadow: 0px -3px 10px black;
+        padding-top: 2pc;
+    }
+    #contact h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+        padding: 2pc;
+    }
+    #con-contain{
+        padding: 3pc;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: left;
+        padding-bottom: 5pc;
+    }
+    .con-about{
+        padding: 1pc;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
     }
 }
