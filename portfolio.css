@@ -343,6 +343,7 @@ body{
         /* margin-top: 3pc; */
         box-shadow: 0px -3px 10px black;
         padding: 0pc;
+        padding-top: 2pc;
     }
     #skill h1{
         text-transform: uppercase;
@@ -388,7 +389,7 @@ body{
         font-weight: bolder;
         text-shadow: 1px 1px 3px black;
         text-align: center;
-        padding: 0pc;
+        padding: 2pc;
         margin-top: 0pc;
     }
     #edu-contain{
