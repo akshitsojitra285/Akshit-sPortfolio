@@ -418,4 +418,38 @@ body{
     .edu-about h2{
         font-weight: bolder;
     }
+    #language{
+        box-shadow: 0px -3px 10px black;
+        padding: 2pc;
+        /* height: 85vh; */
+    }
+    #language h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+        padding: 2pc;
+        margin-top: 1pc;
+    }
+    #lan-contain{
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .lan-about{
+        border: 2px solid black;
+        width: 50%;
+        text-align: center;
+        padding: 2pc;
+        border-radius: 5px;
+        background-color: orange;
+        margin: 2pc;
+        margin-bottom: 3pc;
+        box-shadow: 2px 2px 5px black;
+    }
+    .lan-about:hover{
+        background-color: rgb(252, 127, 82);
+    }
 }
