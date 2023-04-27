@@ -377,4 +377,45 @@ body{
         font-size: larger;
         font-weight: bolder;
     }
+    #education{
+        box-shadow: 0px -3px 10px black;
+        padding: 2pc;
+        /* height: 90vh; */
+    }
+    #education h1{
+        text-transform: uppercase;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        text-align: center;
+        padding: 0pc;
+        margin-top: 0pc;
+    }
+    #edu-contain{
+        padding: 1pc;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .edu-about{
+        background-color: orange;
+        box-shadow: -2px -2px 5px black;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding: 1pc;
+        margin-bottom: 2pc;
+        text-align: center;
+        width: 85%;
+    }
+    .edu-about:hover{
+        background-color: rgb(252, 127, 82);
+    }
+    .edu-about span{
+        margin: 0pc 3pc;
+        font-weight: 600;
+    }
+    .edu-about h2{
+        font-weight: bolder;
+    }
 }
