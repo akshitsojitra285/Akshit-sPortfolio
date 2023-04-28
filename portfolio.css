@@ -268,13 +268,13 @@ body{
         padding: 0px;
     }
     body {
-        width: 100%;
+        width: 480px;
         background-color: lightgray;
     }
     #bar{
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 480px;
         height: 40px;
         padding: 0px;
         /* background-color: black; */
@@ -286,8 +286,8 @@ body{
         margin-left: 10px;
         /* color: white;
         text-decoration: none;
-        text-transform: uppercase;
-        text-align: center;    */
+        text-transform: uppercase;*/
+        text-align: center;  
     }
     #home{
         margin-bottom: 0pc;
