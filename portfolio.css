@@ -268,13 +268,13 @@ body{
         padding: 0px;
     }
     body {
-        width: 500px;
+        width: 100%;
         background-color: lightgray;
     }
     #bar{
         display: flex;
         align-items: center;
-        width: 500px;
+        width: 100%;
         height: 40px;
         padding: 0px;
         /* background-color: black; */
