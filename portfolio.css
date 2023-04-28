@@ -268,7 +268,7 @@ body{
         padding: 0px;
     }
     body {
-        width: 100%;
+        width: 500px;
         background-color: lightgray;
     }
     #bar{
@@ -340,7 +340,7 @@ body{
     }
     #skill{
         /* border: 2px solid black; */
-        /* margin-top: 3pc; */
+        margin-top: 3pc;
         /* box-shadow: 0px -3px 10px black; */
         padding: 0pc;
         padding-top: 2pc;
@@ -350,8 +350,8 @@ body{
         font-size: xx-large;
         font-weight: bolder;
         text-shadow: 1px 1px 3px black;
-        text-align: center;
-        padding: 2pc; */
+        text-align: center;*/
+        /* padding: 2pc; */
     }
     #skill-contain{
         /* border: 2px solid black; */
