@@ -74,7 +74,7 @@ body{
     /* border: 2px solid black; */
     /* margin-top: 3pc; */
     box-shadow: 0px -3px 10px black;
-    padding: 3pc 7pc 0pc 3pc;
+    padding: 3pc 7pc 10pc 3pc;
 }
 #skill h1{
     text-transform: uppercase;
